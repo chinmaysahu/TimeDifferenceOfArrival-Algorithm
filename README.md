@@ -6,10 +6,6 @@ It incorporates time difference of arrival estimates to locate the target locati
 
 This code is based on my understanding from the following paper.
 
-"Performance Comparison of Localization Techniques For Sequential WSN Discovery" 
-
-DOI: 10.1049/ic.2012.0120
-
-
+[Performance Comparison of Localization Techniques For Sequential WSN Discovery](https://10.1049/ic.2012.0120)
 
 
