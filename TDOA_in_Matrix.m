@@ -35,19 +35,4 @@ plot(noise,err10,'lineWidth',2);
 xlabel('Noise Variance','FontName','Times New Roman','FontSize',24,'FontWeight','bold','interpreter','latex');
 ylabel('Mean Sqaure error','FontName','Times New Roman','FontSize',24,'FontWeight','bold','interpreter','latex');
 set(gca,'FontName','Times New Roman','FontSize',20,'FontWeight','bold','linewidth',2,'ticklength',[0.025 0.05],'TickLabelInterpreter', 'latex');
-title('Mean Square Estimation error vs Noise Variance (4 Anchors)')
-% % Plot the scenario
-% f1 = figure(1);
-% clf
-% plot(y(:,1),y(:,2),'ko','MarkerSize',8,'lineWidth',2,'MarkerFaceColor','k'); %anchors
-% grid on
-% hold on
-% plot(x(:,1),x(:,2),'b+','MarkerSize',8,'lineWidth',2); % target locations
-% 
-% plot(xhat(1),xhat(2),'ro','MarkerSize',8,'lineWidth',2);
-% legend('Anchor locations','True Target location','Estimated Target location',...
-%     'Location','Best')
-% 
-% % Compute the Mean Squred Error
-% Err = mean(squared_error);
-% title(['Mean Square Estimation error is ',num2str(Err),'units from target'])
+title('Mean Square Estimation error vs Noise Variance (10 Anchors)')
